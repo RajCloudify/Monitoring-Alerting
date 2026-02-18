@@ -3,7 +3,7 @@
 [Node Exporter / App Servers] --metrics--> [Prometheus] --alerts--> [Alertmanager] --notifications--> PagerDuty / Email / Slack
 [Prometheus] <---metrics--- [Grafana]
 
- 
+  
 Step 1: Scrape Metrics
 
 Prometheus makes an HTTP request to the target server’s /metrics endpoint (e.g., Node Exporter on 9100).

@@ -57,7 +57,7 @@ PagerDuty is a popular incident management platform that provides real-time aler
 3. Set up routing in Alertmanager to send critical alerts to the PagerDuty receiver.
 4. Ensure Prometheus alerting rules are defined for the conditions you want to be paged for.
 
-**Benefits:**
+**Benefits:***
 
 - Automated, reliable alert delivery to the right people.
 - Escalation and on-call management.

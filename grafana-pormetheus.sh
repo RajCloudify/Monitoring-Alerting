@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-echo "=============================="
+echo "==============================="
 echo " Installing Promethous-grafana-Alertmanager--Node Exporter"
 echo "=============================="
 

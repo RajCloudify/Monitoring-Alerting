@@ -3,7 +3,7 @@ set -e
 echo "==============================="
 echo " Installing Promethous-grafana-Alertmanager--Node Exporter"
 echo "=============================="
-
+ 
 # ============ 1. Update System ============
 sudo apt update && sudo apt upgrade -y 
 

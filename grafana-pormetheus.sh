@@ -10,7 +10,7 @@ sudo apt update && sudo apt upgrade -y
 # ============ 2. Install Prometheus ============
 sudo useradd --no-create-home --shell /bin/false prometheus || true
 sudo mkdir -p /etc/prometheus /var/lib/prometheus
-sudo chown prometheus:prometheus /etc/prometheus /var/lib/prometheus
+sudo chown prometheus:prometheus /etc/prometheus /var/lib/prometheus 
 
 cd /tmp
 curl -LO https://github.com/prometheus/prometheus/releases/download/v2.55.1/prometheus-2.55.1.linux-amd64.tar.gz
